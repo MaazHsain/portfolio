@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/ml.png
 title: "Machine Learning & Neural Networks"
 date: 2023-2024
 published: true
