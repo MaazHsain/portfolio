@@ -26,4 +26,15 @@ Project 1 focuses on identifying the optimal machine learning model for predicti
   <img width="703px" height="241" src="../img/ml/ml_result_1.png" class="img-thumbnail" >
 </div>
 
-Project 2 aims to develop a deep learning model to accurately classify hand gestures from the MNIST sign language dataset. Utilizing a multiclass classification approach with a softmax activation and categorical cross-entropy loss function, the goal is to create a robust model for sign language recognition. The project addresses challenges such as overfitting by balancing training and validation metrics, ultimately contributing to advancements in the field of sign language recognition.
+Project 2 aims to develop a deep learning model to accurately classify hand gestures from the MNIST sign language dataset. Utilizing a multiclass classification approach with a softmax activation and categorical cross-entropy loss function, the goal is to create a robust model for sign language recognition. 
+
+<div class="text-center p-4">
+  <img width="500px" height="500" src="../img/ml.png" class="img-thumbnail" >
+</div>
+
+The project addresses challenges such as overfitting by balancing training and validation metrics, ultimately contributing to advancements in the field of sign language recognition. The model was evaluated using k-fold corss validation. In additon, hyperparameter tuning was carried out to achive optimal accuracy, while at the same time reducing overfitting.
+
+<div class="text-center p-4">
+  <img width="513" height="777" src="../img/ml/ml_result_4.png" class="img-thumbnail" >
+  <img width="412" height="712" src="../img/ml/ml_result_5.png" class="img-thumbnail" >
+</div>
