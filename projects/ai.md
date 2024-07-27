@@ -6,17 +6,13 @@ title: "Genetic Algorithm"
 date: 2024
 published: true
 labels:
-  - Machine Learning
   - Artificial Intelligence
   - Python
-  - Models
-  - Deep Neural Networks
-  - CNN
-  - U-Net
-  - VGG16
-  - TensorFlow
-  - Keras
-  - System
+  - PyBullet
+  - Ipython
+  - Genetic Algorithm
+  - Evolution Theory
+  - Fitness Function
 summary: "Utilize the implemented genetic algorithm (GA) to optimize the performance of virtual creatures in a simulated environment designed to mimic the challenge of climbing a mountain. Inspiration is taken from Karl Sims Creatures."
 ---
 
