@@ -16,6 +16,7 @@ labels:
   - VGG16
   - TensorFlow
   - Keras
+  - OpenCV
   - System
 summary: "Project focuses on the development of a robust and accurate system for detecting brain tumors from MRI scans using advanced deep learning techniques. The core of the project leverages Convolutional Neural Networks (CNN) and U-Net models to achieve high precision in tumor identification and segmentation."
 ---
