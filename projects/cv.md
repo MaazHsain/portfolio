@@ -23,10 +23,10 @@ This project involves the development of a computer vision-based traffic monitor
 * Region of Interest (ROI): Focuses monitoring on a specific area within the video frame, reducing computational load and false positives.
 * Dynamic Buffer Time: Prevents double counting of vehicles that momentarily leave and re-enter the ROI, adjustable based on traffic flow characteristics.
 * Real-Time Display: Provides a live video feed with detected vehicles highlighted, along with continuously updated metrics for total vehicle count and traffic rate.
-* 
+  
 <span font-style="bold">Technical Approach:</span>
-Frame Differencing: Calculates the absolute difference between consecutive video frames to identify regions with significant changes indicating motion.
-Background Subtraction: Models the static background of a scene and subtracts it from the current frame to segment moving objects, enhanced by GaussianBlur and morphological operations to remove noise.
+* Frame Differencing: Calculates the absolute difference between consecutive video frames to identify regions with significant changes indicating motion.
+* Background Subtraction: Models the static background of a scene and subtracts it from the current frame to segment moving objects, enhanced by GaussianBlur and morphological operations to remove noise.
 
 <span font-style="bold">Performance Metrics:</span>
 * The system effectively calculates and displays the total car count and the rate of cars passing through the ROI per minute, offering valuable insights for traffic management and analysis.
