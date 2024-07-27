@@ -16,8 +16,8 @@ summary: "This project implements a computer vision-based traffic monitoring sys
   <img width="1287" height="736" src="../img/cv/cv_result_1.png" class="img-thumbnail" >
 </div>
 
-<span font-style="bold">Abstract</span>
-This project involves the development of a computer vision-based traffic monitoring system designed to count and track vehicles in real-time video feeds. The system utilizes frame differencing and background subtraction techniques to accurately detect and highlight moving vehicles.
+<span font-style="bold">Abstract</span><br>
+This project involves the development of a computer vision-based traffic monitoring system designed to count and track vehicles in real-time video feeds. The system utilizes frame differencing and background subtraction techniques to accurately detect and highlight moving vehicles. The blue region is the region of interest, where the cars passing this region are detected. 
 
 <span font-style="bold">Key Features:</span>
 * Region of Interest (ROI): Focuses monitoring on a specific area within the video frame, reducing computational load and false positives.
