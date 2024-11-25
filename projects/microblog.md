@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ai/Screenshot 2024-11-25 124922.png
+image: img/ai/mblog_thumb.png
 title: "Microblogging Website"
 date: 2024
 published: true
