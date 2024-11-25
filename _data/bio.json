@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Maaz Hussain",
-    "label": "Student",
+    "label": "Computer Science Graduate",
     "picture": "https://github.com/MaazHsain.png",
     "email": "maazhussain002@gmail.com",
     "phone": "+65 97772469",
     "website": "https://maazhsain.github.io/portfolio",
-    "summary": "I am studying for a B.S. in Computer Science in University of London at the Singapore Institute of Management. I expect to graduate in September, 2024.",
+    "summary": "I am a recent graduate with a BSc in Computer Science, specializing in Artificial Intelligence and Machine Learning, and I am eager to bring my technical expertise and passion for innovation to roles such as Data Analyst, Data Engineer, or Machine Learning Engineer.",
     "location": { "address": "", "postalCode": "", "city": "", "countryCode": "Singapore", "region": "" },
     "profiles": [
       { "network": "linkedin", "username": "Maaz Hussain", "url": "https://www.linkedin.com/in/maaz-hussain-20644523a" }
@@ -16,7 +16,6 @@
     { "name": "Machine Learning" },
     { "name": "Artificial Intelligence" },
     { "name": "Computer Vision" },
-    { "name": "Natural Language Processing" },
     { "name": "Smart Automation" }
   ],
   "skills": [
