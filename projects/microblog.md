@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/microblog/mblog_thumb.png
+image: img/microblog/microblog-thumb.png
 title: "Microblogging Website"
 date: 2024
 published: true
@@ -15,11 +15,11 @@ summary: "Implemented a Node.js-based web application that interacts with an SQL
 ---
 
 <div class="text-center p-4">
-  <img width="500" height="300" src="../img/microblog/microblog-2.png" class="img-thumbnail" >
+  <img width="1080" height="600" src="../img/microblog/microblog-2.png" class="img-thumbnail" >
 </div>
 
 <div class="text-center p-4">
-  <img width="500" height="300" src="../img/microblog/microblog-3.png" class="img-thumbnail" >
+  <img width="1080" height="600" src="../img/microblog/microblog-3.png" class="img-thumbnail" >
 </div>
 
 #### Project Overview ####
@@ -36,11 +36,11 @@ This is a Node.js-based web application that interacts with an SQLite3 database.
    - Enables authors to create and store articles.
   
 <div class="text-center p-4">
-  <img width="500" height="300" src="../img/microblog/microblog-1.png" class="img-thumbnail" >
+  <img width="1080" height="600" src="../img/microblog/microblog-1.png" class="img-thumbnail" >
 </div>
 
 <div class="text-center p-4">
-  <img width="500" height="300" src="../img/microblog/microblog-4.png" class="img-thumbnail" >
+  <img width="1080" height="600" src="../img/microblog/microblog-4.png" class="img-thumbnail" >
 </div>
 
 2. **Article Reading**:
@@ -48,7 +48,7 @@ This is a Node.js-based web application that interacts with an SQLite3 database.
    - Displays stored articles for general users.
 
 <div class="text-center p-4">
-  <img width="500" height="300" src="../img/microblog/mblog_thumb.png" class="img-thumbnail" >
+  <img width="1080" height="600" src="../img/microblog/mblog_thumb.png" class="img-thumbnail" >
 </div>
 
 #### Development Details ####
