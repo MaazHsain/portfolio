@@ -71,8 +71,7 @@ The goal of this project was to classify sign language gestures from the MNIST S
 
 ---
 
-### Portfolio Highlights
-For your portfolio, these projects can be showcased under **"Machine Learning and Neural Networks"**, emphasizing:
+### Conclusion
 - **Key Technologies:** GridSearchCV, Dropout, L2 Regularization, Decision Trees, and K-Fold Cross-Validation.
 - **Impact:** Demonstrated how systematic model evaluation and tuning can lead to robust, generalizable solutions.
 - **Takeaways:** Insight into balancing model complexity and computational cost while achieving reliable predictions for healthcare and sign language recognition applications.
