@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/nlp/nlp_thumb.png
 title: "Resume Parsing"
-date: 2024
+date: 2024-07-01
 published: true
 labels:
   - NLP
