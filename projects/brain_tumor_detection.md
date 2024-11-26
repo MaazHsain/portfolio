@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/brain_tumor/prototype.png
-title: "From Pixels to Precision: Automating Brain Tumor Detection with CNN and U-Net"
+title: "Revolutionizing Brain Tumor Detection with Deep Learning"
 date: 2024-09-01
 published: true
 labels:
