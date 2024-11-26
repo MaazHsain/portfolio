@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/microblog/microblog-thumb.png
 title: "Microblogging Website"
-date: 2023
+date: 2023-07-01
 published: true
 labels:
   - Database Development
