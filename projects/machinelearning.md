@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ml/ml_thumbnail.jpg
 title: "Machine Learning & Neural Networks"
-date: 2023-2024
+date: 2024-01-01
 published: true
 labels:
   - Machine Learning
