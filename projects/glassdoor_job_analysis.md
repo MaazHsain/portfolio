@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ai/ai_thumb.png
 title: "Job Industry Analysis"
-date: 2024
+date: 2023-01-01
 published: true
 labels:
   - Artificial Intelligence
