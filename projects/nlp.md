@@ -6,31 +6,21 @@ title: "Resume Classification Using NLP"
 date: 2024-07-01
 published: true
 labels:
-  - NLP
-  - NLTK
-  - Gensim
-  - CNN
-  - LSTM
   - Statistical Models
   - Deep Learning
   - Resume Classification  
   - Natural Language Processing (NLP)  
-  - Text Preprocessing  
-  - Bag of Words  
-  - TF-IDF Vectorizer   
+  - Text Preprocessing    
   - Embedding-Based Models  
-  - Word2Vec  
   - Convolutional Neural Network (CNN)  
   - Long Short-Term Memory (LSTM)  
-  - Logistic Regression  
-  - Naive Bayes  
   - Recruitment Automation  
   - Bias Reduction  
   - Feature Engineering  
   - Sequential Data Analysis  
   - Deep Learning  
   - Text Classification
-summary: "Resume Classification Using Statistical and Deep Learning Models."
+summary: "Resume Classification Using Statistical and modern Deep Learning Models."
 ---
 
 <div class="text-center p-4">
