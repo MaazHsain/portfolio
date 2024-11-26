@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/uni_database/uni_db.png
 title: "Singapore Universities Analysis"
-date: 2024
+date: 2023-12-10
 published: true
 labels:
   - Database Development
