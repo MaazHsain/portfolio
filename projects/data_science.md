@@ -6,13 +6,17 @@ title: "Data Science Analysis of the Used Car Market"
 date: 2023-12-05
 published: true
 labels:
-  - Artificial Intelligence
-  - Python
-  - PyBullet
-  - Ipython
-  - Genetic Algorithm
-  - Evolution Theory
-  - Fitness Function
+  - Data Preparation
+  - Feature Engineering
+  - Exploratory Data Analysis (EDA)
+  - Statistical Analysis
+  - Data Visualization
+  - Correlation Analysis
+  - Predictive Modeling
+  - Feature Importance
+  - Polynomial Features
+  - Model Evaluation
+  - Hyperparameter Tuning
 summary: "This project focuses on analyzing the used cars market to identify trends, correlations, and influential factors affecting the selling prices of used cars. It employs statistical and machine learning techniques to build predictive models and extract actionable insights for the automotive resale market."
 ---
 
