@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/ai/ai_thumb.png
-title: "Genetic Algorithm"
+title: "Genetic Algorithm for Virtual Creature Optimization"
 date: 2024-08-01
 published: true
 labels:
@@ -10,10 +10,15 @@ labels:
   - Python
   - PyBullet
   - Ipython
-  - Genetic Algorithm
   - Evolution Theory
   - Fitness Function
-summary: "Utilize the implemented genetic algorithm (GA) to optimize the performance of virtual creatures in a simulated environment designed to mimic the challenge of climbing a mountain. Inspiration is taken from Karl Sims Creatures."
+  - Genetic Algorithm (GA)
+  - Virtual Creatures
+  - Optimization
+  - Evolutionary Computing
+  - Machine Learning
+  - Artificial Life Simulation
+summary: "Utilize the implemented genetic algorithm (GA) to optimize the performance of virtual creatures in a simulated environment designed to mimic the challenge of climbing a mountain. Inspiration is taken from Karl Sims Creatures. A standout example of applying evolutionary principles to solve optimization challenges in a creative and engaging way."
 ---
 
 <div class="text-center p-4">
@@ -26,4 +31,52 @@ This project explores the application of genetic algorithms for solving complex 
   <img width="1077" height="682" src="../img/ai/ai_result_1.png" class="img-thumbnail" >
 </div>
 
-The aim of this project was to evolve the creatures to allow them to climb the mountain. Various experiments were carried out to find the optimal settings (e.g. mutation, population size, generations, gene structure etc). The creature was able to reach the mountain with the fitness function implemented, however was not able to reach the peak, which I will work on in future. 
+#### **Key Features**
+1. **Simulation Environment:**
+   - Created a simulated landscape to test creature performance.
+   - Adjusted terrain friction and morphology to ensure realistic interactions.
+
+2. **Genetic Algorithm Implementation:**
+   - **Population Settings:** Tested population sizes (5, 10, 20) and genome complexity (2–3 genes).
+   - **Mutation Strategies:** Evaluated multiple mutation rate settings to balance exploration and exploitation:
+     - Default (e.g., [0.1, 0.25, 0.25, 0.1])
+     - Aggressive simplifications (e.g., [0.6, 0.25, 0.9, 0.0])
+     - Controlled growth for high complexity ([0.4, 0.25, 0.2, 0.5]).
+
+3. **Fitness Function:**  
+   A composite evaluation method encouraging:
+   - **Vertical Climbing:** Maximized vertical distance (z-axis).  
+   - **Horizontal Navigation:** Minimized horizontal distance to the mountain's center.  
+   - **Center Reward:** Penalized movement away from the mountain's center.
+
+---
+
+#### **Experiments & Observations**
+**Basic Parameters:**
+- **Best Settings:** Population size of 10, gene count of 3, and mutation setting 5 achieved a peak fitness score of 3.401730.
+- **Diversity Impact:** Larger populations (10–20) consistently outperformed smaller ones due to increased genetic diversity.
+- **Gene Count:** Moderate genome complexity (3 genes) yielded the best results.
+
+**Advanced Experiments:**
+- **Morphological Variations:** Tested link length ([0.5, 2.0, 5.0]) and radius ([0.5, 1.0, 1.5]) to optimize reach, stability, and weight distribution.
+- **Control Parameters:**
+  - Adjusted control amplitudes ([0.1, 0.25, 1.0]) for movement strength.
+  - Varied control frequencies ([0.5, 1.0, 1.5]) for movement rhythm.
+- **Friction and Motor Output:**  
+   Explored friction coefficients ([1.0, 5.0, 10]) and motor output for enhanced climbing capability.
+   
+**Challenges & Future Work:**
+- Implementing **point-to-point joints** to improve limb mobility.
+- Developing more complex landscapes to challenge evolved creatures further.
+- Enhancing the fitness function for fine-tuned navigation and climbing.
+
+---
+
+#### **Outcomes**
+- Successfully evolved creatures capable of climbing simpler landscapes.
+- Identified optimal GA configurations for the simulation.
+- Laid the groundwork for future experiments with advanced joint types and varied terrains.
+
+---
+
+This project highlights the ability to design and experiment with machine learning algorithms in creative and technically complex domains. It also demonstrates strong analytical skills through the detailed evaluation of experimental outcomes.
