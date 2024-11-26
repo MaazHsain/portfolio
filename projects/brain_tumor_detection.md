@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/brain_tumor/prototype.png
 title: "Automated Brain Tumour Detection using CNN"
-date: 2024
+date: 2024-09-01
 published: true
 labels:
   - Machine Learning
