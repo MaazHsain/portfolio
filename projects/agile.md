@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/agile/agile_thumb.png
 title: "Comprehensive Pet Care App"
-date: 2023
+date: 2023-06-01
 published: true
 labels:
   - Agile
