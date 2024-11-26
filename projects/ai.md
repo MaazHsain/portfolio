@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ai/ai_thumb.png
 title: "Genetic Algorithm"
-date: 2024
+date: 2024-07-01
 published: true
 labels:
   - Artificial Intelligence
