@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ai/ai_thumb.png
 title: "Used Car Market Analysis"
-date: 2024
+date: 2023-12-05
 published: true
 labels:
   - Artificial Intelligence
