@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/cv/cv_thumb.jpg
 title: "Traffic Monitoring System"
-date: 2023
+date: 2023-12-01
 published: true
 labels:
   - OpenCV
