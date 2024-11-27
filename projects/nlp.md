@@ -23,13 +23,13 @@ labels:
 summary: "Resume Classification Using Statistical and modern Deep Learning Models."
 ---
 
-### **Project Overview: **
+### Project Overview: 
 
 This project involves the implementation of both statistical and modern deep learning models to classify resumes. Utilizing Decision Trees, Random Forests, Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) networks, alongside word embeddings with Word2Vec, the project aims to accurately categorize resumes into predefined job roles. By comparing the performance of these diverse models, the project demonstrates the strengths and applicability of each approach in the context of natural language processing and resume classification.
 
 ---
 
-### **Objectives**
+### Objectives
 1. **Compare Classification Approaches**:  
    - **Statistical Models**: Utilize models like Naive Bayes, Logistic Regression, and Random Forest with feature extraction techniques such as Bag of Words and TF-IDF.  
    - **Embedding-Based Models**: Explore deep learning models like **CNN** and **LSTM** with Word2Vec embeddings.  
@@ -44,9 +44,9 @@ This project involves the implementation of both statistical and modern deep lea
 
 ---
 
-### **Implementation**
+### Implementation
 
-#### **1. Exploratory Data Analysis (EDA)**
+#### 1. Exploratory Data Analysis (EDA)
    - Analyze the dataset to understand its structure, distribution of job categories, and the nature of textual data in resumes.
 
 <div class="text-center p-4">
@@ -54,18 +54,18 @@ This project involves the implementation of both statistical and modern deep lea
   <img src="../img/nlp/resume_length.png" class="img-thumbnail" >
 </div>
 
-#### **2. Data Preprocessing**
+#### 2. Data Preprocessing
    - **Text Preprocessing**: Remove stop words, tokenize, lemmatize, and clean data to standardize inputs.  
    - **Label Encoding**: Encode job categories as numerical labels for classification.
 
-#### **3. Baseline Statistical Model**
+#### 3. Baseline Statistical Model
    - Implement a **Bag of Words model** with a Naive Bayes classifier for initial performance benchmarking.
 
-#### **4. Traditional Statistical Models**
+#### 4. Traditional Statistical Models
    - Feature Extraction: TF-IDF Vectorizer with n-gram ranges (e.g., unigram, bigram, trigram).  
    - Classifiers: Logistic Regression, Random Forest, Decision Tree, and K-Nearest Neighbors (KNN).
 
-#### **5. Embedding-Based Models**
+#### 5. Embedding-Based Models
    - Prepare embeddings using **Word2Vec** to convert text data into dense vector representations.  
    - Deep Learning Models:  
      - **CNN**: Extract local features with convolutional layers.  
@@ -73,7 +73,7 @@ This project involves the implementation of both statistical and modern deep lea
 
 ---
 
-### **Performance Insights**
+### Performance Insights
 - **Statistical Models**:  
   - Logistic Regression with TF-IDF Vectorizer (n-gram range: 1–3) outperformed other statistical models, achieving:   
   - Decision Trees exhibited the lowest performance due to overfitting tendencies and inability to capture text patterns.
@@ -93,9 +93,9 @@ This project involves the implementation of both statistical and modern deep lea
 
 ---
 
-### **Key Findings**
+### Key Findings
 
-#### **Model Suitability**
+#### Model Suitability
 - **Statistical Models**:  
   - Practical for small datasets due to simpler implementation and lower computational requirements.  
   - Logistic Regression and Random Forest are particularly effective with feature engineering techniques like TF-IDF.  
@@ -112,13 +112,13 @@ This project involves the implementation of both statistical and modern deep lea
   <img src="../img/nlp/nlp_result_1.png" class="img-thumbnail" >
 </div>
 
-#### **Comparative Advantages**
+#### Comparative Advantages
 - **Statistical Models**: Quick to implement, efficient for straightforward tasks, and computationally inexpensive.  
 - **Embedding-Based Models**: Better at capturing semantic meanings and patterns in complex datasets.
 
 ---
 
-### **Contributions**
+### Contributions
 1. **Improved Recruitment Processes**:  
    - Automating resume classification enhances accuracy and reduces bias in initial screening stages.  
 
