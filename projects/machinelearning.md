@@ -16,7 +16,6 @@ summary: "Projects included carrying performance comparison of classification al
 ---
 
 <div class="text-center p-4">
-  <img width="793px" height="523" src="../img/ml/ml_result_2.png" class="img-thumbnail" >
   <img width="607px" height="527" src="../img/ml/ml_result_3.png" class="img-thumbnail" >
 </div>
 
@@ -25,11 +24,6 @@ summary: "Projects included carrying performance comparison of classification al
 </div>
 
 <div class="text-center p-4">
-  <img width="500px" height="500" src="../img/ml.png" class="img-thumbnail" >
-</div>
-
-<div class="text-center p-4">
-  <img width="513" height="777" src="../img/ml/ml_result_4.png" class="img-thumbnail" >
   <img width="412" height="712" src="../img/ml/ml_result_5.png" class="img-thumbnail" >
 </div>
 
