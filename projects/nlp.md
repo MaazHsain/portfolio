@@ -23,10 +23,6 @@ labels:
 summary: "Resume Classification Using Statistical and modern Deep Learning Models."
 ---
 
-<div class="text-center p-4">
-  <img width="1456" height="686" src="../img/nlp/nlp_result_1.png" class="img-thumbnail" >
-</div>
-
 ### **Project Overview: **
 
 This project involves the implementation of both statistical and modern deep learning models to classify resumes. Utilizing Decision Trees, Random Forests, Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) networks, alongside word embeddings with Word2Vec, the project aims to accurately categorize resumes into predefined job roles. By comparing the performance of these diverse models, the project demonstrates the strengths and applicability of each approach in the context of natural language processing and resume classification.
@@ -53,6 +49,11 @@ This project involves the implementation of both statistical and modern deep lea
 #### **1. Exploratory Data Analysis (EDA)**
    - Analyze the dataset to understand its structure, distribution of job categories, and the nature of textual data in resumes.
 
+<div class="text-center p-4">
+  <img src="../img/nlp/piechart.png" class="img-thumbnail" >
+  <img src="../img/nlp/resume_length.png" class="img-thumbnail" >
+</div>
+
 #### **2. Data Preprocessing**
    - **Text Preprocessing**: Remove stop words, tokenize, lemmatize, and clean data to standardize inputs.  
    - **Label Encoding**: Encode job categories as numerical labels for classification.
@@ -74,15 +75,21 @@ This project involves the implementation of both statistical and modern deep lea
 
 ### **Performance Insights**
 - **Statistical Models**:  
-  - Logistic Regression with TF-IDF Vectorizer (n-gram range: 1–3) outperformed other statistical models, achieving:  
-    - **Accuracy**: 0.773784  
-    - **Precision**: 0.792071  
-    - **F1-Score**: 0.773518  
+  - Logistic Regression with TF-IDF Vectorizer (n-gram range: 1–3) outperformed other statistical models, achieving:   
   - Decision Trees exhibited the lowest performance due to overfitting tendencies and inability to capture text patterns.
+
+<div class="text-center p-4">
+  <img width="500" src="../img/nlp/best_stat_model.png" class="img-thumbnail" >
+  <img width="500" src="../img/nlp/stat_models.png" class="img-thumbnail" >
+</div>
 
 - **Embedding-Based Models**:  
   - LSTM outperformed CNN, achieving an accuracy of **0.682875**, demonstrating its strength in handling sequential data.  
   - CNN with Word2Vec underperformed (accuracy: 0.458774), likely due to misaligned embeddings or insufficient parameter tuning.
+
+<div class="text-center p-4">
+  <img width="500" src="../img/nlp/emb_models.png" class="img-thumbnail" >
+</div>
 
 ---
 
@@ -96,6 +103,14 @@ This project involves the implementation of both statistical and modern deep lea
 - **Embedding-Based Models**:  
   - More suitable for larger datasets where capturing contextual nuances is critical.  
   - Require significant data, embedding quality, and careful hyperparameter tuning.
+ 
+<div class="text-center p-4">
+  <img src="../img/nlp/all_results.png" class="img-thumbnail" >
+</div>
+
+<div class="text-center p-4">
+  <img src="../img/nlp/nlp_result_1.png" class="img-thumbnail" >
+</div>
 
 #### **Comparative Advantages**
 - **Statistical Models**: Quick to implement, efficient for straightforward tasks, and computationally inexpensive.  
