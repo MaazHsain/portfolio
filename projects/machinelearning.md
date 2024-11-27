@@ -52,7 +52,7 @@ Project 1 focuses on identifying the optimal machine learning model for predicti
 ---
 
 #### **Project 2: Sign Language Recognition Using Deep Learning**
-The goal of this project was to classify sign language gestures from the MNIST Sign Language dataset using deep learning models. The study emphasized model evaluation, overfitting prevention, and hyperparameter tuning.
+The goal of this project was to classify sign language gestures from the MNIST Sign Language dataset using deep learning models. The study emphasized model evaluation, overfitting prevention, and hyperparameter tuning. Reference was taken from the Chollet, F. Deep learning with Python. 1st edn (Shelter Island, NY: Manning Publications, 2017).
 
 1. **Methods:**
    - Baseline Models: Developed underfit and overfit models to assess performance.
