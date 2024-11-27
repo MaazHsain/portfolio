@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/brain_tumor/prototype.png
+image: img/brain_tumor/thumbnail.png
 title: "Revolutionizing Brain Tumor Detection with Deep Learning"
 date: 2024-09-01
 published: true
@@ -37,15 +37,28 @@ Detecting brain tumors is a critical step in early diagnosis and treatment plann
 #### The Technical Journey: A Three-Phase System ####
 This system wasn't just built—it evolved through a meticulously designed pipeline. Here's a glimpse of the main phases that brought it to life:
 
+<div class="text-center p-4">
+  <img width="500px" src="../img/brain_tumor/mindmap.png" class="img-thumbnail" >
+</div>
+
 #### Data Preprocessing: Preparing the Images ####
 To ensure consistent and effective model inputs, MRI scans underwent rigorous preprocessing:  
 1. **Standardization**: All images resized to 224x224 for CNN and 256x256 for U-Net to align with model requirements.  
 2. **Brain Isolation**: Algorithms cropped brain regions using contour detection, eliminating irrelevant background noise.  
-3. **Image Augmentation**: Techniques like rotation and flipping enriched the dataset, enhancing model generalization.  
+3. **Image Augmentation**: Techniques like rotation and flipping enriched the dataset, enhancing model generalization.
+
+<div class="text-center p-4">
+  <img width="500px" src="../img/brain_tumor/augmentation.png" class="img-thumbnail" >
+</div>
 
 #### Model Implementation ####
 1. **CNN for Classification**: Using a fine-tuned VGG16 model, the system classifies MRI scans as tumor-positive or tumor-negative, ensuring high recall rates to minimize false negatives.  
 2. **U-Net for Segmentation**: A custom-built U-Net architecture pinpoints the exact tumor location, providing a visual overlay for clarity. The model employs Dice loss for enhanced accuracy in pixel-level predictions.  
+
+<div class="text-center p-4">
+  <img width="500px" src="../img/brain_tumor/classification_result.png" class="img-thumbnail" >
+  <img width="500px" src="../img/brain_tumor/unet_result.png" class="img-thumbnail" >
+</div>
 
 #### Result Generation: Insights for Clinicians ####
 The system produces intuitive and visually enriched results:
@@ -53,7 +66,11 @@ The system produces intuitive and visually enriched results:
 -  Heatmaps: Provide a color-coded intensity map of the tumor's location.
 -  Large-Scale Automation: A batch-processing feature enables classification and segmentation of large volumes of MRI scans, optimizing efficiency in clinical workflows.
 
-The solution is scalable, handling batch MRI scans from a directory. Each scan is processed, classified, segmented, and annotated with heatmaps, making it an invaluable tool for clinical applications requiring high throughput.  
+The solution is scalable, handling batch MRI scans from a directory. Each scan is processed, classified, segmented, and annotated with heatmaps, making it an invaluable tool for clinical applications requiring high throughput.
+
+<div class="text-center p-4">
+  <img width="500px" src="../img/brain_tumor/large_scale_results.png" class="img-thumbnail" >
+</div>
 
 ---
 
