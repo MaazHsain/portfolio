@@ -35,26 +35,28 @@ The dataset contains data regarding graduate employment outcomes, salaries, and 
      - Examined the dataset for completeness, consistency, and relevance.
      - Identified data fields such as university names, courses, employment rates, median salaries, and job types.
 
-<div class="text-center p-4">
-  <img src="../img/university_analysis/tables.png" class="img-thumbnail" >
-</div>
+  <div class="text-center p-4">
+    <img src="../img/university_analysis/tables.png" class="img-thumbnail" >
+  </div>
 
    - **Questions Formulated**:
      - What is the average Full-Time Permanent (FTP) and Overall Employment Rates for each university?
      - What is the trend in the highest mean and median salaries for each year from 2013 to 2021, along with the corresponding university and degree?
      - Which degree is facing a declining Full-Time Permanent (FTP) and Overall Employment Rates?
 
-<div class="text-center p-4">
-  <img src="../img/university_analysis/questions.png" class="img-thumbnail" >
-</div>
+  <div class="text-center p-4">
+    <img src="../img/university_analysis/questions.png" class="img-thumbnail" >
+  </div>
 
 2. **E/R Model Creation**:
    - **Entity-Relationship Model**:
      - Modeled entities such as **Universities**, **Courses**, **Graduates**, and **Employment Outcomes**.
-<div class="text-center p-4">
-  <img src="../img/university_analysis/erd_2.png" class="img-thumbnail" >
-  <img src="../img/university_analysis/rs.png" class="img-thumbnail" >
-</div>
+    
+    <div class="text-center p-4">
+      <img src="../img/university_analysis/erd_2.png" class="img-thumbnail" >
+      <img src="../img/university_analysis/rs.png" class="img-thumbnail" >
+    </div>
+    
      - Defined relationships, such as:
        - "Universities offer Courses."
        - "Graduates complete Courses."
@@ -65,10 +67,12 @@ The dataset contains data regarding graduate employment outcomes, salaries, and 
 
 3. **MySQL Database Implementation**:
    - Built a relational database in MySQL based on the E/R model.
-<div class="text-center p-4">
-  <img src="../img/university_analysis/sql_query_qn2.png" class="img-thumbnail" >
-  <img src="../img/university_analysis/sql_ans_qn2.png" class="img-thumbnail" >
-</div>
+   
+    <div class="text-center p-4">
+      <img src="../img/university_analysis/sql_query_qn2.png" class="img-thumbnail" >
+      <img src="../img/university_analysis/sql_ans_qn2.png" class="img-thumbnail" >
+    </div>
+
    - Populated the database with sufficient data to ensure:
      - All tables had meaningful entries.
      - Relationships were demonstrated through multiple queries.
@@ -83,12 +87,14 @@ The dataset contains data regarding graduate employment outcomes, salaries, and 
      - Display lists of universities and courses.
      - Query employment outcomes and salaries.
      - Answer formulated questions dynamically (e.g., "Which courses offer the highest mean salaries?").
-<div class="text-center p-4">
-  <img src="../img/university_analysis/qn1.png" class="img-thumbnail" >
-  <img src="../img/university_analysis/qn2a.png" class="img-thumbnail" >
-  <img src="../img/university_analysis/qn2b.png" class="img-thumbnail" >
-  <img src="../img/university_analysis/qn3.png" class="img-thumbnail" >
-</div>
+     
+  <div class="text-center p-4">
+    <img src="../img/university_analysis/qn1.png" class="img-thumbnail" >
+    <img src="../img/university_analysis/qn2a.png" class="img-thumbnail" >
+    <img src="../img/university_analysis/qn2b.png" class="img-thumbnail" >
+    <img src="../img/university_analysis/qn3.png" class="img-thumbnail" >
+  </div>
+
    - **Technologies Used**:
      - Node.js for server-side scripting.
      - MySQL as the backend database.
