@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/uni_database/uni_db.png
+image: img/university_analysis/thumb.jpg
 title: "Singapore Universities Analysis"
 date: 2023-12-10
 published: true
@@ -18,10 +18,6 @@ labels:
 summary: "Analyzed and modeled the Graduate Employment Survey (GES) dataset, specifically for universities in Singapore."
 ---
 
-<!--<div class="text-center p-4">
-  <img width="883" height="663" src="../img/ai/ai_result_2.png" class="img-thumbnail" >
-</div> -->
-
 #### Project Overview ####
 The dataset contains data regarding graduate employment outcomes, salaries, and related metrics. The goal was to critique the dataset, model its structure, implement it as a MySQL database, and create a simple Node.js-based web application to query and display insights from the data.
 
@@ -35,9 +31,9 @@ The dataset contains data regarding graduate employment outcomes, salaries, and 
      - Examined the dataset for completeness, consistency, and relevance.
      - Identified data fields such as university names, courses, employment rates, median salaries, and job types.
    - **Questions Formulated**:
-     - What are the average employment rates across different universities?
-     - Which courses have the highest and lowest median salaries?
-     - How do employment outcomes vary between public and private universities?
+     - What is the average Full-Time Permanent (FTP) and Overall Employment Rates for each university?
+     - What is the trend in the highest mean and median salaries for each year from 2013 to 2021, along with the corresponding university and degree?
+     - Which degree is facing a declining Full-Time Permanent (FTP) and Overall Employment Rates? 
 
 2. **E/R Model Creation**:
    - **Entity-Relationship Model**:
