@@ -42,17 +42,25 @@ Project 1 focuses on identifying the optimal machine learning model for predicti
 </div>
 
 <div class="text-center p-4">
-  <img width="703px" height="241" src="../img/ml/ml_result_1.png" class="img-thumbnail" >
+  <img src="../img/ml/feature_importance.png" class="img-thumbnail" >
 </div>
 
 3. **Conclusion:**
    - The study underscored the importance of thorough model evaluation and parameter optimization to enhance predictive accuracy.
    - The iterative process of EDA, model selection, and tuning highlighted the strengths of each algorithm, culminating in a robust diabetes prediction framework.
 
+<div class="text-center p-4">
+  <img src="../img/ml/diabetes_results_2.png" class="img-thumbnail" >
+</div>
+
 ---
 
 #### **Project 2: Sign Language Recognition Using Deep Learning**
 The goal of this project was to classify sign language gestures from the MNIST Sign Language dataset using deep learning models. The study emphasized model evaluation, overfitting prevention, and hyperparameter tuning. Reference was taken from the Chollet, F. Deep learning with Python. 1st edn (Shelter Island, NY: Manning Publications, 2017).
+
+<div class="text-center p-4">
+  <img src="../img/ml/sample.png" class="img-thumbnail" >
+</div>
 
 1. **Methods:**
    - Baseline Models: Developed underfit and overfit models to assess performance.
@@ -65,6 +73,10 @@ The goal of this project was to classify sign language gestures from the MNIST S
    - Final Model 2 (a more complex model with an additional layer and increased epochs) exhibited comparable performance to simpler models, highlighting diminishing returns of added complexity without adequate tuning.
 
 <div class="text-center p-4">
+  <img src="../img/ml/final_model_hand.png" class="img-thumbnail" >
+</div>
+
+<div class="text-center p-4">
   <img width="412" height="712" src="../img/ml/ml_result_5.png" class="img-thumbnail" >
 </div>
 
@@ -72,6 +84,10 @@ The goal of this project was to classify sign language gestures from the MNIST S
    - A systematic comparison of evaluation methods and architectures showcased the trade-offs between accuracy and generalization.
    - K-Fold cross-validation emerged as a robust validation strategy, reducing dataset-specific biases.
    - The project illustrated the importance of balancing complexity and generalization for real-world applications.
+
+<div class="text-center p-4">
+  <img src="../img/ml/cm_hand.png" class="img-thumbnail">
+</div>
 
 ---
 
