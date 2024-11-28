@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ml/ml_thumbnail.jpg
+image: img/ml/ml_thumb.jpg
 title: "Machine Learning & Neural Networks"
 date: 2024-01-01
 published: true
