@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ai/ai_thumb.png
+image: img/glassdoor/salary.png
 title: "Exploratory Data Analysis: Industry and Workforce Insights"
 date: 2023-01-01
 published: true
@@ -18,7 +18,7 @@ summary: "This project aimed to uncover meaningful insights about industries and
 ---
 
 <div class="text-center p-4">
-  <img width="883" height="663" src="../img/ai/ai_result_2.png" class="img-thumbnail" >
+  <img src="../img/glassdoor/myindustries.png" class="img-thumbnail" >
 </div>
 
 #### **Objectives**
@@ -44,9 +44,19 @@ These questions guided the analysis and helped break down the industry landscape
    - Statistical summaries, including measures of central tendency and variability, were used to understand data distribution.  
    - Correlation analysis identified relationships between attributes like ratings, salaries, and job availability.  
 
+<div class="text-center p-4">
+  <img src="../img/glassdoor/hiring.png" class="img-thumbnail" >
+  <img src="../img/glassdoor/jobs_offered.png" class="img-thumbnail" >
+</div>
+
 3. **Data Visualization:**  
    - Heatmaps and bar charts visualized key trends such as industry distributions and salary averages.  
    - Scatter plots and boxplots illustrated relationships between company ratings and other factors like industry type or salary range.  
+
+<div class="text-center p-4">
+  <img src="../img/glassdoor/salary.png" class="img-thumbnail" >
+  <img src="../img/glassdoor/avg_base.png" class="img-thumbnail" >
+</div>
 
 4. **Insight Generation:**  
    - Compared industries based on metrics like the number of companies, ratings, salaries, and jobs.  
@@ -67,7 +77,3 @@ These questions guided the analysis and helped break down the industry landscape
 This analysis provides a comprehensive overview of industry trends, helping stakeholders identify growth areas and challenges. For instance, industries with poor ratings can implement strategies like improving employee satisfaction or adopting innovative practices to stay competitive.
 
 By answering critical questions, this project serves as a foundation for data-driven decisions in the workforce and industry sectors. Whether for job seekers, company leaders, or policymakers, these insights offer valuable guidance for strategic planning.
-
----
-
-Let me know if you'd like adjustments to focus on specific tools, results, or industries!
