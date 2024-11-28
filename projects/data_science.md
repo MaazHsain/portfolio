@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ai/ai_thumb.png
+image: img/ds/thumb.jpg
 title: "Data Science Analysis of the Used Car Market"
 date: 2023-12-05
 published: true
@@ -20,10 +20,6 @@ labels:
 summary: "This project focuses on analyzing the used cars market to identify trends, correlations, and influential factors affecting the selling prices of used cars. It employs statistical and machine learning techniques to build predictive models and extract actionable insights for the automotive resale market."
 ---
 
-<!-- <div class="text-center p-4">
-  <img width="883" height="663" src="../img/ai/ai_result_2.png" class="img-thumbnail" >
-</div> -->
-
 #### **Methodology**
 The project follows a structured workflow:
 
@@ -37,6 +33,13 @@ The project follows a structured workflow:
    - Distribution Analysis: Assessed skewness and kurtosis to understand data symmetry.
    - Visualization Tools: Plots and heatmaps were used to identify relationships between numerical and categorical variables.
 
+<div class="text-center p-4">
+  <img src="../img/ds/piechart.png" class="img-thumbnail" >
+  <img src="../img/ds/seaborn.png" class="img-thumbnail" >
+  <img src="../img/ds/boxplot1.png" class="img-thumbnail" >
+  <img src="../img/ds/boxplot2.png" class="img-thumbnail" >
+</div>
+
 3. **Insights from Data Visualization:**
    - **Car Age vs Selling Price:** Newer cars fetch higher prices, indicating depreciation over time.
    - **Mileage vs Selling Price:** Vehicles with better mileage command higher prices, reflecting buyer preference for fuel efficiency.
@@ -44,17 +47,35 @@ The project follows a structured workflow:
    - **Seller Type vs Selling Price:** Cars sold by certified dealers often have higher prices, reflecting trust in quality.
    - **Transmission Type vs Selling Price:** Automatic vehicles command premium prices, likely due to higher manufacturing costs and demand.
 
+<div class="text-center p-4">
+  <img src="../img/ds/relation.png" class="img-thumbnail" >
+</div>
+
 4. **Correlation Analysis:**
    - Selling price strongly correlates with **car_age**, **max_power (bhp)**, and **torque (Nm)**, highlighting these as key factors in price prediction.
+
+<div class="text-center p-4">
+  <img src="../img/ds/cm.png" class="img-thumbnail" >
+  <img src="../img/ds/heatmap.png" class="img-thumbnail" >
+</div>
 
 5. **Machine Learning Model Development:**
    - Applied linear regression to predict selling prices using significant features such as car age, engine capacity, max power, mileage, and fuel type.
    - Used **MinMaxScaler** for feature scaling and cross-validation to ensure model reliability and prevent overfitting.
    - Explored feature importance and engineered polynomial features for enhanced model performance.
 
+<div class="text-center p-4">
+  <img src="../img/ds/feature_imp.png" class="img-thumbnail" >
+</div>
+
 6. **Model Evaluation:**
    - Cross-validation ensured robust performance across folds.
    - Comparative analysis of predictions on training and test datasets validated model generalizability.
+
+<div class="text-center p-4">
+  <img src="../img/ds/initial_score.png" class="img-thumbnail" >
+  <img src="../img/ds/final_score.png" class="img-thumbnail" >
+</div>
 
 ---
 
