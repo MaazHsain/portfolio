@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/brain_tumor/thumbnail.png
-title: "Revolutionizing Brain Tumor Detection with Deep Learning"
+title: "Revolutionizing Brain Tumor Detection with Deep Learning (FYP)"
 date: 2024-09-01
 published: true
 labels:
