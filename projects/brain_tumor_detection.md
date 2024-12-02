@@ -57,7 +57,7 @@ To ensure consistent and effective model inputs, MRI scans underwent rigorous pr
 
 <div class="text-center p-4">
   <img width="500px" src="../img/brain_tumor/classification_result.png" class="img-thumbnail" >
-  <img width="500px" src="../img/brain_tumor/unet_result.png" class="img-thumbnail" >
+  <img width="500px" src="../img/brain_tumor/seg_results.png" class="img-thumbnail" >
 </div>
 
 #### Result Generation: Insights for Clinicians ####
@@ -90,6 +90,19 @@ Building this system presented unique challenges, from managing imbalanced datas
 -  Developed a scalable system capable of processing entire MRI folders with automated detection and segmentation.
 -  Achieved precise tumor localization, aiding early diagnosis and treatment planning.
 -  Designed a pipeline that could easily integrate into real-world healthcare environments.
+
+---
+
+#### Results
+- Classification
+<div class="text-center p-4">
+  <img src="../img/brain_tumor/class_res.png" class="img-thumbnail" >
+</div>
+
+- Segmentation
+<div class="text-center p-4">
+  <img src="../img/brain_tumor/unet_res.png" class="img-thumbnail" >
+</div>
 
 ---
 
