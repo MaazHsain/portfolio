@@ -6,13 +6,16 @@
     "email": "maazhussain002@gmail.com",
     "phone": "+65 97772469",
     "website": "https://maazhsain.github.io/portfolio",
-    "summary": "I am a recent graduate with a BSc in Computer Science, specializing in Artificial Intelligence and Machine Learning, and I am eager to bring my technical expertise and passion for innovation to roles such as Data Analyst, Data Engineer, or Machine Learning Engineer.",
+    "summary": "A BSc (Honours) Computer Science student specialising in Artificial Intelligence and Machine Learning, with a focus on launching a career as a data analyst, data engineer, or software engineer.",
     "location": { "address": "", "postalCode": "", "city": "", "countryCode": "Singapore", "region": "" },
     "profiles": [
-      { "network": "linkedin", "username": "Maaz Hussain", "url": "https://www.linkedin.com/in/maaz-hussain-20644523a" }
+      { "network": "linkedin", "username": "Maaz Hussain", "url": "https://www.linkedin.com/in/its-me-maaz-hussain" }
     ]
   },
   "interests": [
+    { "name": "Data Analysis" },
+    { "name": "Data Engineering" },
+    { "name": "Data Science" },
     { "name": "Machine Learning" },
     { "name": "Artificial Intelligence" },
     { "name": "Computer Vision" },
@@ -21,7 +24,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "C++",  "Javascript", "SQL"]
+      "keywords": [ "Python", "C++",  "Javascript", "SQL", "Java"]
     },
     {
       "name": "Toolsets/OS",
@@ -30,7 +33,7 @@
   ],
   "education": [
     {
-      "institution": "University of London",
+      "institution": "Goldsmiths, University of London",
       "area": "Computer Science (expected September, 2024)",
       "studyType": "B.S.",
       "startDate": "04-2021",
