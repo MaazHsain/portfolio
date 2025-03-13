@@ -6,7 +6,7 @@
     "email": "maazhussain002@gmail.com",
     "phone": "+65 97772469",
     "website": "https://maazhsain.github.io/portfolio",
-    "summary": "A BSc (Honours) Computer Science student specialising in Artificial Intelligence and Machine Learning, with a focus on launching a career as a data analyst, data engineer, or software engineer.",
+    "summary": "BSc (Honours) Computer Science student specializing in Machine Learning & AI. Deeply curious about building intuitive, efficient applications and leveraging data to uncover meaningful insights. Always eager to learn, improve, and take on new challenges.",
     "location": { "address": "", "postalCode": "", "city": "", "countryCode": "Singapore", "region": "" },
     "profiles": [
       { "network": "linkedin", "username": "Maaz Hussain", "url": "https://www.linkedin.com/in/its-me-maaz-hussain" }
@@ -16,10 +16,10 @@
     { "name": "Data Analysis" },
     { "name": "Data Engineering" },
     { "name": "Data Science" },
+    { "name": "Software Development" },
+    { "name": "Full-stack development" },
     { "name": "Machine Learning" },
-    { "name": "Artificial Intelligence" },
-    { "name": "Computer Vision" },
-    { "name": "Smart Automation" }
+    { "name": "Computer Vision" }
   ],
   "skills": [
     {
