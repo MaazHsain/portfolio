@@ -17,6 +17,7 @@ labels:
   - Kanban
 summary: "This group project utilized agile methodologies in developing a mobile app for pet owners that integrates all essential features for managing pet care. The app utilizes an SQL database for data management and is built using React. The app offers a complete solution for pet care management."
 ---
+<a href="https://drive.google.com/file/d/1YeaqVzkXs5HTrIXVGnovIiwlMRs8m7Im/view?usp=sharing">Video Demonstration</a>
 
 <div class="text-center p-4">
   <img width="455" height="800" src="../img/agile/agile_result_1.png" class="img-thumbnail" >
