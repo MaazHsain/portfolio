@@ -24,6 +24,8 @@ labels:
 summary: "Project focuses on the development of a robust and accurate system for detecting brain tumors from MRI scans using advanced deep learning techniques. The core of the project leverages Convolutional Neural Networks (CNN) and U-Net models to achieve high precision in tumor identification and segmentation."
 ---
 
+<a href="https://drive.google.com/file/d/1p8j40_S67088J19ax3CVkZWISnlVHcUL/view?usp=drive_link">Video Demonstration</a>
+
 <div class="text-center p-4">
   <img width="500px" src="../img/brain_tumor/model_integration_pipeline.png" class="img-thumbnail" >
   <img width="500px" src="../img/brain_tumor/prototype_results.png" class="img-thumbnail" >
