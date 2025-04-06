@@ -15,6 +15,9 @@ labels:
 summary: "Projects included carrying performance comparison of classification algorithms such as k-Nearest Neighbors (kNN), Naive Bayes, and Decision Trees in accurately predicting the presence or absence of diabetes. In additon, applied deep learning techniques to accurately classify hand movements from photographs, contributing to the field of sign language recognition."
 ---
 
+Introduction
+Projects under this section are divided into Project 1 and Project 2, each applying various concepts of machine learning. Project 1 is about **Diabetes Prediction Using Machine Learning** whereas Project 2 is on **Sign Language Recognition Using Deep Learning**, which can be found below Project 1. Scroll down to view Project 2.
+
 #### **Project 1: Diabetes Prediction Using Machine Learning**
 Project 1 focuses on identifying the optimal machine learning model for predicting diabetes based on patient health indicators. By comparing k-Nearest Neighbors (kNN), Naive Bayes, and Decision Trees, the project aims to find the model with the highest accuracy and the fewest false negatives. This work highlights the strengths and limitations of each algorithm in the context of diabetes diagnosis, providing valuable insights for improving predictive modeling in healthcare.The project required thorough validation and hyperparameter tuning as shown. The results are shown below. A systematic approach was employed:
 
